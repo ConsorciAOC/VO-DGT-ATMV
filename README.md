@@ -1,19 +1,18 @@
 # Via Oberta – DGT-ATMV
 Documentació d'integració del servei DGT-ATMV del Consorci AOC.
 
-## Index
+# **Índex** #
 
-- 1 Introducció
-- 2 Transmissions de dades disponibles
-- 3 Missatgeria del servei
-      - 3.1 Gestió d’impagaments
-         - 3.1.1 Alta d’impagament en el registre de deutors (ATMV_ALTA)
-         - 3.1.2 Consulta d’impagament en el registre de deutors (ATMV_CONSULTA)
-         - 3.1.3 Eliminar impagament en el registre de deutors (ATMV_ELIMINAR)
-      - 3.2 Codis de resultat
-      - 3.3 Formats de matrícules
-- 4 Joc de proves
-
+1. [Introducció]
+2. [Transmissions de dades disponibles]
+3. [Missatgeria del servei]
+   1. [Gestió d’impagaments]
+      1. [Alta d’impagament en el registre de deutors (ATMV_ALTA)]
+      2. [Consulta d’impagament en el registre de deutors (ATMV_CONSULTA)]
+      3. [Eliminar impagament en el registre de deutors (ATMV_ELIMINAR)]
+   2. Codis de resultat
+   3. Formats de matrícules
+4. Joc de proves
 
 ## 1 Introducció
 
