@@ -176,7 +176,7 @@ primera posició pel distintiu (M en aquest exemple) i la segona posició deixar
 
 El joc de proves del servei proporcionat per l’emissor final, vàlid per a l’entorn de pre-producció, és el que es detalla a continuació.
 
-<ul><li>Altes correctes</li</ul></br>
+<ul><li>Altes correctes</li></ul></br>
 
 | _Província | _Municipi_ | _Matrícula_ | _Bastidor_ | _Titular_ | _Any impagament_ |
 | --- | --- | --- | --- | --- | --- |
@@ -187,32 +187,32 @@ El joc de proves del servei proporcionat per l’emissor final, vàlid per a l�
 31 | 2016 | E0009BBB | CLM0292750062 | 04967008C | 2010
 31 | 2016 | E0009BBB | CLM0292750062 | 04967008C | 2009
 
-<ul><li>Vehicle donat de baixa definitiva</li</ul></br>
+<ul><li>Vehicle donat de baixa definitiva</li></ul></br>
 
 | _Província_ | _Municipi_ | _Matrícula_ | _Bastidor_ | _Titular_ | _Any impagament_ |
 | --- | --- | --- | --- | --- | --- |
 31 | 2016 | 0009BBB | KMXKNE1CPYU380148 | B01152974 | 2010
 31 | 2016 | 0009BBB | KMXKNE1CPYU380148 | B01152974 | 2009
 
-<ul><li>Matricula incorrecta</li</ul></br>
+<ul><li>Matricula incorrecta</li></ul></br>
 
 | _Província_ | _Municipi_ | _Matrícula_ | _Bastidor_ | _Titular_ | _Any impagament_ |
 | --- | --- | --- | --- | --- | --- |
 31 | 2016 | VI00310 | MAT4640718SL00463 | 44299173T | 2010
 
-<ul><li>Número de bastidor incorrecte</li</ul></br>
+<ul><li>Número de bastidor incorrecte</li></ul></br>
 
 | _Província_ | _Municipi_ | _Matrícula_ | _Bastidor_ | _Titular_ | _Any impagament_ |
 | --- | --- | --- | --- | --- | --- |
 31 | 2016 | 2703GGG | MAT4640?? | 44299173T | 2010
 
-<ul><li>NIF incorrecte</li</ul></br>
+<ul><li>NIF incorrecte</li></ul></br>
 
 | _Província_ | _Municipi_ | _Matrícula_ | _Bastidor_ | _Titular_ | _Any impagament_ |
 | --- | --- | --- | --- | --- | --- |
 31 | 2016 | 2703GGG | MAT4640718SL00463 | M1234567F | 2010
 
-<ul><li>Vehicle sense antecedents</li</ul></br>
+<ul><li>Vehicle sense antecedents</li></ul></br>
 
 | _Província_ | _Municipi_ | _Matrícula_ | _Bastidor_ | _Titular_ | _Any impagament_ |
 | --- | --- | --- | --- | --- | --- |
