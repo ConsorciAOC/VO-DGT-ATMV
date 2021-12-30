@@ -178,7 +178,7 @@ El joc de proves del servei proporcionat per l’emissor final, vàlid per a l�
 
 <ul><li>Altes correctes</li></ul></br>
 
-| _Província | _Municipi_ | _Matrícula_ | _Bastidor_ | _Titular_ | _Any impagament_ |
+| _Província_ | _Municipi_ | _Matrícula_ | _Bastidor_ | _Titular_ | _Any impagament_ |
 | --- | --- | --- | --- | --- | --- |
 31 | 2016 | NA6584AY | | 00557751R | 2010
 31 | 2016 | NA6584AY | | 00557751R | 2009
@@ -225,6 +225,7 @@ El joc de proves del servei proporcionat per l’emissor final, vàlid per a l�
 
 Exemple petició
 
+```
 <Peticion xmlns="http://gencat.net/scsp/esquemes/peticion">
 <Atributos>
 <IdPeticion>ATMV000</IdPeticion>
@@ -290,7 +291,7 @@ Exemple petició
 </peticioAltaImpagament>
 </DatosEspecificos>
 </SolicitudTransmision>
-
+```
 
 Exemple petició
 </Solicitudes>
