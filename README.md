@@ -176,12 +176,12 @@ primera posició pel distintiu (M en aquest exemple) i la segona posició deixar
 
 El joc de proves del servei proporcionat per l’emissor final, vàlid per a l’entorn de pre-producció, és el que es detalla a continuació.
 
-```
-Província Municipi Matrícula Bastidor Titular Any impagament
+| _Província_ | _Municipi_ | _Matrícula_ | _Bastidor_ | _Titular_ | _Any impagament |
+| --- | --- | --- | --- | --- | --- |
 Altes correctes
-31 2016 NA6584AY 00557751R 2010
-31 2016 NA6584AY 00557751R 2009
-31 2016 2703GGG MAT4640718SL00463 44299173T 2010
+31 | 2016 | NA6584AY | 00557751R | 2010
+31 | 2016 | NA6584AY | 00557751R | 2009
+31 | 2016 | 2703GGG | MAT4640718SL00463 |44299173T | 2010
 ```
 ```
 31 2016 2703GGG MAT4640718SL00463 44299173T 2009
