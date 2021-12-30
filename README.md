@@ -293,12 +293,8 @@ Exemple petició
 </SolicitudTransmision>
 ```
 
-Exemple petició
-</Solicitudes>
-</Peticion>
-
 Exemple resposta
-
+```
 <res:Respuesta xmlns:res="http://gencat.net/scsp/esquemes/respuesta">
 <res:Atributos>
 <res:CodigoCertificado>ATMV_ALTA</res:CodigoCertificado>
@@ -365,9 +361,10 @@ Exemple resposta
 <ns3:matricula>NA6584AY</ns3:matricula>
 <ns3:idTitular>99999999R</ns3:idTitular>
 <ns3:provincia>31</ns3:provincia>
-
+```
 
 Exemple resposta
+```
 <ns3:municipi>31201</ns3:municipi>
 <ns3:anyImpagament>2010</ns3:anyImpagament>
 </ns3:peticioAltaImpagament>
@@ -380,11 +377,11 @@ Exemple resposta
 </res:TransmisionDatos>
 </res:Transmisiones>
 </res:Respuesta>
-
+```
 #### Consulta impagament (ATMV_CONSULTA)
 
 Exemple petició
-
+```
 <Peticion xmlns="http://gencat.net/scsp/esquemes/peticion">
 <Atributos>
 <IdPeticion>ATMV_00 1 </IdPeticion>
@@ -437,9 +434,10 @@ Exemple petició
 <CodigoCertificado>ATMV_CONSULTA</CodigoCertificado>
 <IdSolicitud>1</IdSolicitud>
 <IdTransmision>EXPEDIENT</IdTransmision>
-
+```
 
 Exemple petició
+```
 <FechaGeneracion/>
 </Transmision>
 </DatosGenericos>
@@ -451,9 +449,9 @@ Exemple petició
 </SolicitudTransmision>
 </Solicitudes>
 </Peticion>
-
+```
 Exemple resposta
-
+```
 <res:Respuesta xmlns:res="http://gencat.net/scsp/esquemes/respuesta">
 <res:Atributos>
 <res:CodigoCertificado>ATMV_CONSULTA</res:CodigoCertificado>
@@ -511,9 +509,10 @@ Exemple resposta
 <res:CodigoCertificado>ATMV_CONSULTA</res:CodigoCertificado>
 <res:FechaGeneracion/>
 <res:IdSolicitud>1</res:IdSolicitud>
-
+```
 
 Exemple resposta
+```
 <res:IdTransmision>EXPEDIENT</res:IdTransmision>
 </res:Transmision>
 </res:DatosGenericos>
@@ -540,11 +539,11 @@ Exemple resposta
 </res:TransmisionDatos>
 </res:Transmisiones>
 </res:Respuesta>
-
+```
 #### Eliminar impagament (ATMV_ELIMINAR)
 
 Exemple petició
-
+```
 <Peticion xmlns="http://gencat.net/scsp/esquemes/peticion">
 <Atributos>
 <IdPeticion>ATMV_00 2 </IdPeticion>
@@ -583,9 +582,10 @@ Exemple petició
 <NombreCompletoFuncionario>FUNCIONARI</NombreCompletoFuncionario>
 <NifFuncionario>NIF</NifFuncionario>
 <EMailFuncionario/>
-
+```
 
 Exemple petició
+```
 </Funcionario>
 </Solicitante>
 <Titular>
@@ -615,9 +615,9 @@ Exemple petició
 </SolicitudTransmision>
 </Solicitudes>
 </Peticion>
-
+```
 Exemple resposta
-
+```
 <res:Respuesta xmlns:res="http://gencat.net/scsp/esquemes/respuesta">
 <res:Atributos>
 <res:CodigoCertificado>ATMV_ELIMINAR</res:CodigoCertificado>
@@ -657,9 +657,10 @@ Exemple resposta
 <res:Finalidad>PROVES</res:Finalidad>
 <res:Consentimiento>Si</res:Consentimiento>
 <res:Funcionario>
-
+```
 
 Exemple resposta
+```
 <res:NombreCompletoFuncionario>FUNCIONARI</res:NombreCompletoFuncionario>
 <res:NifFuncionario>NIF</res:NifFuncionario>
 <res:EMailFuncionario/>
@@ -699,5 +700,4 @@ Exemple resposta
 </res:TransmisionDatos>
 </res:Transmisiones>
 </res:Respuesta>
-
-
+```
