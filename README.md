@@ -3,18 +3,18 @@ Documentació d'integració del servei DGT-ATMV del Consorci AOC.
 
 # **Índex** #
 
-1. [Introducció]
-2. [Transmissions de dades disponibles]
-3. [Missatgeria del servei]
-   1. [Gestió d’impagaments]
-      1. [Alta d’impagament en el registre de deutors (ATMV_ALTA)]
-      2. [Consulta d’impagament en el registre de deutors (ATMV_CONSULTA)]
-      3. [Eliminar impagament en el registre de deutors (ATMV_ELIMINAR)]
-   2. Codis de resultat
-   3. Formats de matrícules
-4. Joc de proves
+1. [Introducció](#1)
+2. [Transmissions de dades disponibles](#2)
+3. [Missatgeria del servei](#3)
+   1. [Gestió d’impagaments](#3.1)
+      1. [Alta d’impagament en el registre de deutors (ATMV_ALTA)](#3.1.1)
+      2. [Consulta d’impagament en el registre de deutors (ATMV_CONSULTA)](#3.1.2)
+      3. [Eliminar impagament en el registre de deutors (ATMV_ELIMINAR)](#3.1.3)
+   2. [Codis de resultat](#3.2)
+   3. [Formats de matrícules](#3.3)
+4. [Joc de proves](#4)
 
-## 1 Introducció
+## 1 Introducció <a name="1"></a>
 
 Aquest document detalla la missatgeria associada al servei de consulta del servei de Acreditación
 
@@ -22,7 +22,7 @@ Telémática Impuesto Municipal de Vehículos (en endavant ATMV) de la Direcció
 
 Per poder realitzar la integració cal conèixer prèviament la següent documentació: <ul><li>Document d’Especificació de missatgeria pel consum de productes de la plataforma PCI del Consorci AOC.</li</ul>
 
-## 2 Transmissions de dades disponibles
+## 2 Transmissions de dades disponibles <a name="2"></a>
 
 Les operacions disponibles a través del servei són les que es presenten a continuació:
 
@@ -34,15 +34,15 @@ Les operacions disponibles a través del servei són les que es presenten a cont
 | **ATMV** | ATMV_CONSULTA | Gestió d’impagaments de l’impost de tracció mecànica de vehicles: consulta d’impagament en el registre de deutors
 | **ATMV** | ATMV_ELIMINAR | Gestió d’impagaments de l’impost de tracció mecànica de vehicles: eliminació d’impagament en el registre de deutors.
 
-## 3 Missatgeria del servei
+## 3 Missatgeria del servei<a name="3"></a>
 
 A continuació es detalla la missatgeria corresponent al bloc de dades específiques de les diferents modalitats de consum del producte.
 
-#### 3.1 Gestió d’impagaments
+#### 3.1 Gestió d’impagaments <a name="3.1"></a>
 
 DGT habilita de 08:00 a 18:00 40 peticions cada 10 segons.
 
-##### 3.1.1 Alta d’impagament en el registre de deutors (ATMV_ALTA)
+##### 3.1.1 Alta d’impagament en el registre de deutors (ATMV_ALTA) <a name="3.1.1"></a>
 
 Aquesta operació permet introduir la informació dels impagaments associats a un vehícle / titular / ajuntament any en el registre de deutors de la DGT.
 
@@ -74,7 +74,7 @@ Aquesta operació permet introduir la informació dels impagaments associats a u
 <img align="center" src="img/3.1.1.2.png" />
 </p>
 
-##### 3.1.2 Consulta d’impagament en el registre de deutors (ATMV_CONSULTA)
+##### 3.1.2 Consulta d’impagament en el registre de deutors (ATMV_CONSULTA) <a name="3.1.2"></a>
 
 Aquesta operació permet consultar la informació dels impagaments associats a un vehícle / titular /
 
@@ -118,7 +118,7 @@ Codis de provincies i municipis INE disponibles a: [http://www.ine.es/jaxi/menu.
 /respostaConsultaImpagament/resultat/codiResultat | Codi de resultat de la operació. Per més detalls vegeu l’apartat 3.2.
 /respostaConsultaImpagament/resultat/descripcio | Descripció del resultat de la operació.
 
-##### 3.1.3 Eliminar impagament en el registre de deutors (ATMV_ELIMINAR)
+##### 3.1.3 Eliminar impagament en el registre de deutors (ATMV_ELIMINAR) <a name="3.1.3"></a>
 
 Aquesta operació permet eliminar la informació dels impagaments associats a un vehícle / titular /ajuntament any en el registre de deutors de la DGT.
 
@@ -149,11 +149,11 @@ Aquesta operació permet eliminar la informació dels impagaments associats a un
 /respostaEliminacioImpagament/resultat/codiResultat | Codi de resultat de la operació. Per més detalls vegeu l’apartat 3.2.
 /respostaEliminacioImpagament/resultat/descripcio | Descripció del resultat de la operació.
 
-#### 3.2 Codis de resultat
+#### 3.2 Codis de resultat <a name="3.2"></a>
 
 <ul><li>ATMV00000: operació realitzada correctament</li><li>ATMV00101: accés al servei fora de l’horari establert pel servei.</li><li>ATMV00200: error tècnic de la plataforma ATMV.</li><li>ATMV00201: certificat emprat per accedir al servei invàlid.</li><li>ATMV00202: l’identificador de l’usuari requeridor no coincideix amb el del certificat digital usat en la firma del missatge.</li><li>ATMV00300: error tècnic de la plataforma ATMV.</li><li>ATMV00301: l’usuari requeridor no està autoritzat a accedir al servei.</li><li>ATMV00400: error tècnic de la plataforma ATMV.</li><li>ATMV00401: l’entitat de l’usuari requeridor no té assignat cap municipi.</li><li>ATMV00500: matrícula incorrecta.</li><li>ATMV00501: bastidor incorrecte.</li><li>ATMV00502: identificador del titular incorrecte.</li><li>ATMV00503: any d’impagament incorrecte.</li><li>ATMV00504: l’ens requeridor no té competències sobre la provincia informada.</li><li>ATMV00505: l’ens requeridor no té competències sobre el municipi informat.</li><li>ATMV00506: data d’alta d’impagament no és correcta.</li><li>ATMV00600: error tècnic de la plataforma ATMV.</li><li>ATMV00601: el vehicle que es vol donar d’alta no té informació associada.</li><li>ATMV00602: el vehicle que es vol donar d’alta té informació associada però el bastidor indicat no coincideix amb les dades del vehicle.</li><li>ATMV00604: el vehicle està donat de baixa definitiva i la operació no es pot portar a terme.</li><li>ATMV00800: error tècnic de la plataforma ATMV.</li><li>ATMV00801: l’impagament que es vol donar d’alta ja existeix.</li><li>ATMV00802: la cerca no retorna cap resultat.</li><li>ATMV00803: la cerca no retorna més de 75 resultats i cal delimitar la cerca.</li><li>ATMV00804: l’impagament que es vol donar de baixa no existeix.</li><li>ATMV99999: error tècnic de la plataforma ATMV.</li></ul>
 
-#### 3.3 Formats de matrícules
+#### 3.3 Formats de matrícules <a name="3.3"></a>
 
 Les següents taules recullen els diferents formats de matrícules vàlids que suportats actualment a les bases de dades de la DGT:
 
@@ -171,8 +171,8 @@ primera posició pel distintiu (M en aquest exemple) i la segona posició deixar
 <p align="center">
 <img align="center" src="img/formatsMatricules2.png" />
 </p>
-
-## 4 Joc de proves
+ 
+## 4 Joc de proves <a name="4"></a>
 
 El joc de proves del servei proporcionat per l’emissor final, vàlid per a l’entorn de pre-producció, és el que es detalla a continuació.
 
