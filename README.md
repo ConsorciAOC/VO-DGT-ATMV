@@ -74,7 +74,7 @@ Aquesta operació permet introduir la informació dels impagaments associats a u
 <img align="center" src="img/3.1.1.2.png" />
 </p>
 
-##### 3.1.2 Consulta d’impagament en el registre de deutors (ATMV_CONSULTA)...........
+##### 3.1.2 Consulta d’impagament en el registre de deutors (ATMV_CONSULTA)
 
 Aquesta operació permet consultar la informació dels impagaments associats a un vehícle / titular /
 
@@ -103,7 +103,6 @@ ajuntament any en el registre de deutors de la DGT.
 </p>
 
 Codis de provincies i municipis INE disponibles a: [http://www.ine.es/jaxi/menu.do?type=pcaxis&path=%2Ft20%2Fe245%2Fcodmun%2F&file=inebase&L=](http://www.ine.es/jaxi/menu.do?type=pcaxis&path=%2Ft20%2Fe245%2Fcodmun%2F&file=inebase&L=)
-
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -158,7 +157,9 @@ Aquesta operació permet eliminar la informació dels impagaments associats a un
 
 Les següents taules recullen els diferents formats de matrícules vàlids que suportats actualment a les bases de dades de la DGT:
 
-c
+<p align="center">
+<img align="center" src="img/formatsMatricules.png" />
+</p>
 
 Les lletres en negreta indiquen que són fixes, el 0 indica un dígit, L indica una lletra i S indica possibilitat de lletra o espai en blanc.
 
