@@ -107,7 +107,7 @@ ajuntament any en el registre de deutors de la DGT.
 <img align="center" src="img/3.1.2.2.png" />
 </p>
 
-Codis de provincies i municipis INE disponibles a: [http://www.ine.es/jaxi/menu.do?type=pcaxis&path=%2Ft20%2Fe245%2Fcodmun%2F&file=inebase&L=](http://www.ine.es/jaxi/menu.do?type=pcaxis&path=%2Ft20%2Fe245%2Fcodmun%2F&file=inebase&L=)
+Codis de provincies i municipis INE disponibles a: [INE](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177031&menu=ultiDatos&idp=1254734710990)
 
 | _Element_ | _Descripció_ |
 | --- | --- |
