@@ -61,7 +61,7 @@ Aquesta operació permet introduir la informació dels impagaments associats a u
 /peticioAltaImpagament/idTitular | Document d’identitat del titular del vehícle (NIF, CIF, NIE) en format sense separadors amb un tamany de 9 caràcters.
 /peticioAltaImpagament/provincia | Codi INE de provincia de 2 posicions.
 /peticioAltaImpagament/municipi | Codi INE de municipi de 5 posicions (sense dígit de control).
-/peticioAltaImpagament/anyImpagament | Any en 4 digits (major del 2007). Correspon a l’exercici de l’impagament.
+/peticioAltaImpagament/anyImpagament | Any en 4 digits (any actual o anterior). Correspon a l’exercici de l’impagament.
 
 <p align="center">
 <img align="center" src="img/3.1.1.1.png" />
@@ -98,7 +98,7 @@ ajuntament any en el registre de deutors de la DGT.
 /peticioConsultaImpagament/idTitular | Document d’identitat del titular del vehícle (NIF, CIF, NIE) en format sense separadors amb untamany de 9 caràcters.
 /peticioConsultaImpagament/provincia | Codi INE de provincia de 2 posicions^1.
 /peticioConsultaImpagament/municipi | Codi INE de municipi de 5 posicions (sense dígit de control).
-/peticioConsultaImpagament/anyImpagament | Any en 4 digits (major del 2007). Correspon a l’exercici de l’impagament.
+/peticioConsultaImpagament/anyImpagament | Any en 4 digits (any actual o anterior). Correspon a l’exercici de l’impagament.
 /peticioConsultaImpagament/dataAlta | Data d’alta en el registre de deutors, format DD/MM/AAAA o %/MM/AAAA).
 
 ##### 3.1.2.2 Resposta - dades específiques
@@ -118,7 +118,7 @@ Codis de provincies i municipis INE disponibles a: [INE](https://www.ine.es/dyng
 //impagament/idTitular | Document d’identitat del titular del vehícle (NIF, CIF, NIE) en format sense separadors amb un tamany de 9 caràcters.
 //impagament/provincia | Codi INE de provincia de 2 posicions.
 //impagament/municipi | Codi INE de municipi de 5 posicions (sense dígit de control).
-//impagament/anyImpagament | Any en 4 digits (major del 2007). Correspon a l’exercici de l’impagament.
+//impagament/anyImpagament | Any en 4 digits (any actual o anterior). Correspon a l’exercici de l’impagament.
 //impagament/dataAlta | Data d’alta en el registre de deutors, format dd/MM/yyyy HH:mm:ss.
 /respostaConsultaImpagament/resultat/codiResultat | Codi de resultat de la operació. Per més detalls vegeu [l’apartat 3.2.](#3.2)
 /respostaConsultaImpagament/resultat/descripcio | Descripció del resultat de la operació.
@@ -140,7 +140,7 @@ Aquesta operació permet eliminar la informació dels impagaments associats a un
 /peticioEliminacioImpagament/idTitular | Document d’identitat del titular del vehícle (NIF, CIF, NIE) en format sense separadors amb un tamany de 9 caràcters.
 /peticioEliminacioImpagament/provincia | Codi INE de provincia de 2 posicions.
 /peticioEliminacioImpagament/municipi | Codi INE de municipi de 5 posicions (sense dígit de control).
-/peticioEliminacioImpagament/anyImpagament | Any en 4 digits (major del 2007). Correspon a l’exercici de l’impagament.
+/peticioEliminacioImpagament/anyImpagament | Any en 4 digits (any actual o anterior). Correspon a l’exercici de l’impagament.
 
 ##### 3.1.3.2 Resposta - dades específiques
 
